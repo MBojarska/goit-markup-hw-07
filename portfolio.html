@@ -21,17 +21,17 @@
       <nav>
         <!-- Nawigacja do innych sekcji -->
         <ul class="navigation">
-          <li><a href="index.html">Agencja</a></li>
-          <li><a class="active" href="portfolio.html">Portfolio</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+          <li class=" navigation__item"><a class="navigation__link" href="index.html">Agencja</a></li>
+          <li class=" navigation__item"><a class="navigation__link active" href="portfolio.html">Portfolio</a></li>
+          <li class=" navigation__item"><a class="navigation__link" href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
       <ul class="contact">
         <!-- Link do adresu e-mail  -->
         <li>
-          <div class="top">
-            <a href="mailto:info@devstudio.com">
-              <svg width="16px" height="12px" class="icon-contact">
+          <div class="contact__top">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg width="16px" height="12px" class="contact__icon">
                 <use href="./images/icon.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a>
@@ -39,15 +39,16 @@
         </li>
         <!-- Link do numeru telefonu -->
         <li>
-          <div class="top">
-            <a href="tel:+48111111111">
-              <svg width="10px" height="16px" class="icon-contact">
+          <div class="contact__top">
+            <a class="contact__link" href="tel:+48111111111">
+              <svg width="10px" height="16px" class="contact__icon">
                 <use href="./images/icon.svg#icon-smartphone"></use>
               </svg>
               +48 111 111 111</a>
           </div>
         </li>
       </ul>
+    </div>
   </header>
   <main>
     <section class="section">
@@ -62,10 +63,10 @@
       </div>
       <div class="container works-container">
         <ul class="works">
-          <li>
+          <li class="works__item">
             <div class="box">
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                <div class="box__overlay">
+                  <p class="box__description">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
                     koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone
                     serwery konkurencji</p>                </div>
               <figure>
@@ -81,13 +82,13 @@
             </div>
           </li>
 
-          <li>
+          <li class="works__item">
             <div class="box">
               <figure>
                 <img src="https://github.com/MBojarska/Goit-hw-02/blob/main/images/images/design1%20(1).jpg?raw=true"
                   alt="Ludzie grający w koszykówkę" width="370" height="294" />
-                <div class="overlay">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nobis minima reprehenderit asperiores
+                <div class="box__overlay">
+                  <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nobis minima reprehenderit asperiores
                     aspernatur unde! Veniam doloribus ipsa reiciendis corrupti.</p>
                 </div>
                 <figcaption><div class="figcaption-box">
@@ -98,13 +99,13 @@
             </div>
           </li>
 
-          <li>
+          <li class="works__item">
             <div class="box">
               <figure>
                 <img src="https://github.com/MBojarska/Goit-hw-02/blob/main/images/images/app1%20(1).jpg?raw=true"
                   alt="logo z rybą" width="370" height="294" />
-                <div class="overlay">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga repellendus nulla commodi error
+                <div class="box__overlay">
+                  <p class="box__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga repellendus nulla commodi error
                     facilis reiciendis quibusdam cumque ratione minus? Assumenda.</p>
                 </div>
                 <figcaption>
@@ -115,13 +116,13 @@
             </div>
           </li>
 
-          <li>
+          <li class="works__item">
             <div class="box">
               <figure>
                 <img src="https://github.com/MBojarska/Goit-hw-02/blob/main/images/images/marketing1%20(1).jpg?raw=true"
                   alt="Słuchawki nauszne" width="370" height="294" />
-                <div class="overlay">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum recusandae quam debitis reiciendis
+                <div class="box__overlay">
+                  <p class="box__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum recusandae quam debitis reiciendis
                     aliquam voluptatibus totam aut voluptates ipsum quasi.</p>
                 </div>
                 <figcaption>
@@ -132,13 +133,13 @@
             </div>
           </li>
 
-          <li>
+          <li class="works__item">
             <div class="box">
               <figure>
                 <img src="https://github.com/MBojarska/Goit-hw-02/blob/main/images/images/app2%20(1).jpg?raw=true"
                   alt="Pudełka" width="370" height="294" />
-                <div class="overlay">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste aliquam enim recusandae
+                <div class="box__overlay">
+                  <p class="box__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste aliquam enim recusandae
                     voluptatum soluta placeat debitis suscipit distinctio facere?</p>
                 </div>
                 <figcaption>
@@ -149,13 +150,13 @@
             </div>
           </li>
 
-          <li>
+          <li class="works__item">
             <div class="box">
               <figure>
                 <img src="https://github.com/MBojarska/Goit-hw-02/blob/main/images/images/page2%20(1).jpg?raw=true"
                   alt="Monitor komputera" width="370" height="294" />
-                <div class="overlay">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magnam incidunt dolorum
+                <div class="box__overlay">
+                  <p class="box__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magnam incidunt dolorum
                     dolores. Commodi adipisci culpa alias tempore odio atque.</p>
                 </div>
                 <figcaption>
@@ -166,13 +167,13 @@
             </div>
           </li>
 
-          <li>
+          <li class="works__item">
             <div class="box">
               <figure>
                 <img src="https://github.com/MBojarska/Goit-hw-02/blob/main/images/images/design2%20(1).jpg?raw=true"
                   alt="Książka" width="370" height="294" />
-                <div class="overlay">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti mollitia sint ullam sequi,
+                <div class="box__overlay">
+                  <p class="box__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti mollitia sint ullam sequi,
                     dolores quos ipsa aperiam voluptatum nisi provident.</p>
                 </div>
                 <figcaption>
@@ -183,13 +184,13 @@
             </div>
           </li>
 
-          <li>
+          <li class="works__item">
             <div class="box">
               <figure>
                 <img src="https://github.com/MBojarska/Goit-hw-02/blob/main/images/images/marketing2%20(1).jpg?raw=true"
                   alt="TAG z literami LAB EL TAG" width="370" height="294" />
-                <div class="overlay">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum recusandae amet fugiat ab
+                <div class="box__overlay">
+                  <p class="box__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum recusandae amet fugiat ab
                     cupiditate est saepe! A rerum doloremque similique.</p>
                 </div>
                 <figcaption>
@@ -200,13 +201,13 @@
             </div>
           </li>
 
-          <li>
+          <li class="works__item">
             <div class="box">
               <figure>
                 <img src="https://github.com/MBojarska/Goit-hw-02/blob/main/images/images/app3%20(1).jpg?raw=true"
                   alt="Ręce na klawiaturze laptopa" width="370" height="294" />
-                <div class="overlay">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus vel iste voluptatibus quod iusto
+                <div class="box__overlay">
+                  <p class="box__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus vel iste voluptatibus quod iusto
                     odio molestiae dignissimos laborum quibusdam itaque.</p>
                 </div>
                 <figcaption>
@@ -223,43 +224,45 @@
   </main>
   <footer>
     <section class="container footer">
-      <div class="adress-footer-container">
-        <a href="/" class="webstudio-bottom"><span class="web">Web</span><span class="studio">Studio</span></a>
+      <div class="adress-footer">
+        <a href="/" class="adress-footer__webstudio">
+          <span class="adress-footer__web">Web</span><span class="adress-footer__studio">Studio</span></a>
         <address id="kontakt">
-          <ul class="contact-footer">
-            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+          <ul class="adress-footer__contact">
+            <li class="adress-footer__contact-item">m. Warszawa, Aleje Jerozolimskie 21</li>
             <!-- Link do adresu e-mail  -->
-            <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="adress-footer__contact-item">
+              <a class="adress-footer__contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <!-- Link do numeru telefonu -->
-            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            <li class="adress-footer__contact-item">
+              <a class="adress-footer__contact-link" href="tel:+48111111111">+48 111 111 111</a></li>
           </ul>
         </address>
       </div>
       <div class="container join-us">
         <h4>dołącz do nas</h4>
         <ul class="social-footer">
-          <li class="social-footer-item">
-            <a href="#">
+          <li class="social-footer__item">
+            <a class="social-footer__item-link" href="#">
               <svg width="20" height="20" class="social-icon">
                 <use href="./images/icon.svg#icon-instagram"></use>
               </svg></a>
           </li>
-          <li class="social-footer-item">
-            <a href="#">
+          <li class="social-footer__item">
+            <a class="social-footer__item-link" href="#">
               <svg width="20" height="20" class="social-icon">
                 <use href="./images/icon.svg#icon-twitter"></use>
               </svg></a>
           </li>
-          <li class="social-footer-item">
-            <a href="#">
+          <li class="social-footer__item">
+            <a class="social-footer__item-link" href="#">
               <svg width="20" height="20" class="social-icon">
                 <use href="./images/icon.svg#icon-facebook"></use>
               </svg></a>
           </li>
-          <li class="social-footer-item">
-            <a href="#">
+          <li class="social-footer__item">
+            <a class="social-footer__item-link" href="#">
               <svg width="20" height="20" class="social-icon">
                 <use href="./images/icon.svg#icon-linkedin2"></use>
               </svg></a>
@@ -267,10 +270,10 @@
         </ul>
       </div>
       <div class="container newsletter">
-        <h4>Zapisz się do newslettera</h4>
-        <form class="newsletter-form">
-          <label><input placeholder="E-mail" /></label>
-          <button type="button" class="newsletter-button">
+        <h4 class="newsletter__header">Zapisz się do newslettera</h4>
+        <form class="newsletter__form">
+          <label><input class="newsletter__input" input placeholder="E-mail" /></label>
+          <button type="button" class="newsletter__button">
             Zapisz się
             <svg width="24" height="24" class="social-icon">
               <use href="./images/icon.svg#icon-send"></use>
