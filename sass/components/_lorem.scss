@@ -1,26 +1,31 @@
 .lorem {
-    display: flex;
-    justify-content: center;
-  }
-  .lorem__item {
+  display: flex;
+  justify-content: center;
+
+  &__item {
     width: 270px;
     padding-right: 30px;
   }
-  .lorem__header {
+
+  &__header {
     padding-top: 30px;
   }
-  .lorem__text {
+
+  &__text {
     font-size: 14px;
     line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--agency-mediumgrey);
   }
-  .lorem__svg {
+
+  &__svg {
     width: 270px;
     height: 120px;
   }
-  .lorem__icon {
+
+  &__icon {
     display: flex;
     background-color: var(--agency-svg-grey);
   }
+}

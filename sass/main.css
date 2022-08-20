@@ -109,16 +109,13 @@
   display: flex;
   justify-content: center;
 }
-
 .lorem__item {
   width: 270px;
   padding-right: 30px;
 }
-
 .lorem__header {
   padding-top: 30px;
 }
-
 .lorem__text {
   font-size: 14px;
   line-height: 1.71;
@@ -126,12 +123,10 @@
   letter-spacing: 0.03em;
   color: var(--agency-mediumgrey);
 }
-
 .lorem__svg {
   width: 270px;
   height: 120px;
 }
-
 .lorem__icon {
   display: flex;
   background-color: var(--agency-svg-grey);
@@ -584,6 +579,7 @@ footer {
 }
 .window__label {
   position: relative;
+  align-items: center;
   margin-top: 10px;
   margin-left: 40px;
   font-weight: 400;
@@ -636,8 +632,8 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  align-items: center;
 }
-
 .statute span {
   font-size: 14px;
   line-height: 24px;
@@ -645,7 +641,6 @@ footer {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 .statute span a {
   text-decoration: underline;
   color: var(--agency-blue);
@@ -665,7 +660,6 @@ footer {
      -moz-appearance: none;
           appearance: none;
 }
-
 #statute:checked {
   background-color: var(--reg-white);
   border: none;
