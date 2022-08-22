@@ -107,7 +107,7 @@
 
 .lorem {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .lorem__item {
   width: 270px;
