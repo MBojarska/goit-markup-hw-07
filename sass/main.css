@@ -673,15 +673,14 @@ footer {
   pointer-events: none;
 }
 
-.client {
-  display: flex;
-  width: 170px;
-}
-
 .our-clients {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+}
+.our-clients__client {
+  display: flex;
+  width: 170px;
 }
 .our-clients__icon {
   width: 170px;
